@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  overflow-x: hidden;
+  min-height: 100vh;
+  background-image: url(./assets/bg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+}
+.navbar {
+  background-color: #000;
+  height: 82px;
+}
+
+.navbar img {
+  margin: 2% 6%;
+  height: 30px;
+}
+.line {
+  border-left: 2px solid #fff;
+  height: 45px;
+  position: relative;
+  left: 230px;
+  top: -70px;
+}
+.list-item {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 45px;
+  font-family: "Poppins";
+  font-weight: 500;
+  position: relative;
+  top: -105px;
+  left: 300px;
+  color: #fff;
+  font-size: 14px;
+}
+.list-item:first-child {
+  margin-right: 50px;
+}
+.fa-solid {
+  margin-left: 10px;
+  font-size: 10px;
+}
+.button-small {
+  background-color: #ba0cc5;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  height: 40px;
+  width: 130px;
+  float: right;
+  margin: 0 6%;
+  margin-top: -135px;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 15px;
+}
+h1 {
+  font-family: "Montserrat";
+  color: #fff;
+  text-align: center;
+  font-size: 80px;
+  max-width: 1000px;
+  margin-top: 150px;
+  margin-left: 200px;
+}
+.hero-description {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 27px;
+  font-weight: 500;
+  margin-left: 380px;
+  margin-bottom: 35px;
+}
+.button-large {
+  background-color: #ba0cc5;
+  border: none;
+  height: 50px;
+  width: 250px;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 20px;
+  position: absolute;
+  left: 40%;
+  cursor: pointer;
+}
